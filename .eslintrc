@@ -1,0 +1,12 @@
+{
+	"env": {
+		"browser": true
+	},
+	"extends": ["eslint:recommended", "plugin:react/recommended"],
+	"plugins": ["prettier"],
+	"parser": "babel-eslint",
+	"rules": {
+		"react/jsx-closing-bracket-location": ["error", "after-props"],
+		"react/prop-types": "off"
+	}
+}
